@@ -1,13 +1,9 @@
 package ng.dat.ar;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import org.json.JSONArray;
@@ -45,7 +41,7 @@ public class PreferencesActivity extends Activity {
         }
         else
         {
-            poiAdapter = new PoiAdapter(this, R.layout.row_layout);
+            poiAdapter = new PoiAdapter(this, R.layout.poi_row_layout);
             listView = (ListView) findViewById(R.id.listview);
             listView.setAdapter(poiAdapter);
 

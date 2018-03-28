@@ -51,7 +51,7 @@ public class PoiAdapter extends ArrayAdapter
         if(row == null)
         {
             LayoutInflater layoutInflater = (LayoutInflater) this.getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            row = layoutInflater.inflate(R.layout.row_layout, parent, false);
+            row = layoutInflater.inflate(R.layout.poi_row_layout, parent, false);
             poiHolder = new PoiHolder();
             poiHolder.tx_id = (TextView) row.findViewById(R.id.tx_id);
             poiHolder.tx_name = (TextView) row.findViewById(R.id.tx_name);
