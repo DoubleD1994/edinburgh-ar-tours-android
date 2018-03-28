@@ -1,0 +1,147 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:2:1-30:12
+MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/36fadd6af4162688f68851939498a79a/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/43996a21158ab4c692e07ff12d9f0664/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.0.aar/833030518d9d9de49450e2f66da049cb/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.0.aar/c517422893fad7632e42d3c5a6d8dbd0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-v4:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.0.aar/e56ecdf1c31775beb88c0f88806395b8/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.0.aar/ae5afcd9fccc57401a2c92843325ba0e/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.0.aar/a2a73b3a93423288d0fd2de94dd5ddb6/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.0.aar/2195c2ad98c02b8d93768f6e80bcd37a/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.0.aar/8a445353c029a5b4b52d2d6de634c50c/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.0.aar/423dc991f589024ac0764830d19bf264/AndroidManifest.xml:17:1-27:12
+INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:3:5-24
+		INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.CAMERA
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:7:22-62
+uses-feature#android.hardware.camera
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:9:5-60
+	android:name
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:9:19-57
+application
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:11:5-28:19
+MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/36fadd6af4162688f68851939498a79a/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/36fadd6af4162688f68851939498a79a/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/43996a21158ab4c692e07ff12d9f0664/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/43996a21158ab4c692e07ff12d9f0664/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.0.aar/833030518d9d9de49450e2f66da049cb/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.0.aar/833030518d9d9de49450e2f66da049cb/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.0.aar/c517422893fad7632e42d3c5a6d8dbd0/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.0.aar/c517422893fad7632e42d3c5a6d8dbd0/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.0.aar/e56ecdf1c31775beb88c0f88806395b8/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.0.aar/e56ecdf1c31775beb88c0f88806395b8/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.0.aar/ae5afcd9fccc57401a2c92843325ba0e/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.0.aar/ae5afcd9fccc57401a2c92843325ba0e/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.0.aar/a2a73b3a93423288d0fd2de94dd5ddb6/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.0.aar/a2a73b3a93423288d0fd2de94dd5ddb6/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.0.aar/2195c2ad98c02b8d93768f6e80bcd37a/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.0.aar/2195c2ad98c02b8d93768f6e80bcd37a/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.0.aar/8a445353c029a5b4b52d2d6de634c50c/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.0.aar/8a445353c029a5b4b52d2d6de634c50c/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.0.aar/423dc991f589024ac0764830d19bf264/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.0.aar/423dc991f589024ac0764830d19bf264/AndroidManifest.xml:25:5-20
+	android:supportsRtl
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:16:9-40
+activity#ng.dat.ar.MainMenu
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:17:19-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:21:27-74
+activity#ng.dat.ar.ARActivity
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:24:9-48
+	android:name
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:24:19-45
+activity#ng.dat.ar.ToursActivity
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:25:9-51
+	android:name
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:25:19-48
+activity#ng.dat.ar.PreferencesActivity
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:26:9-57
+	android:name
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:26:19-54
+activity#ng.dat.ar.HelpActivity
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:27:9-59
+	android:name
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:27:19-47
+uses-sdk
+INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/36fadd6af4162688f68851939498a79a/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/36fadd6af4162688f68851939498a79a/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/43996a21158ab4c692e07ff12d9f0664/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/43996a21158ab4c692e07ff12d9f0664/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.0.aar/833030518d9d9de49450e2f66da049cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.0.aar/833030518d9d9de49450e2f66da049cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.0.aar/c517422893fad7632e42d3c5a6d8dbd0/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.0.aar/c517422893fad7632e42d3c5a6d8dbd0/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.0.aar/e56ecdf1c31775beb88c0f88806395b8/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.0.aar/e56ecdf1c31775beb88c0f88806395b8/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.0.aar/ae5afcd9fccc57401a2c92843325ba0e/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.0.aar/ae5afcd9fccc57401a2c92843325ba0e/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.0.aar/a2a73b3a93423288d0fd2de94dd5ddb6/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.0.aar/a2a73b3a93423288d0fd2de94dd5ddb6/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.0.aar/2195c2ad98c02b8d93768f6e80bcd37a/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.0.aar/2195c2ad98c02b8d93768f6e80bcd37a/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.0.aar/8a445353c029a5b4b52d2d6de634c50c/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.0.aar/8a445353c029a5b4b52d2d6de634c50c/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.0.aar/423dc991f589024ac0764830d19bf264/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.0.aar/423dc991f589024ac0764830d19bf264/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/36fadd6af4162688f68851939498a79a/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
