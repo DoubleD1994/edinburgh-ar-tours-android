@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Edinburgh AR Tours</string>
+    <string name="title_activity_display_list_view">DisplayListView</string>
 </resources>

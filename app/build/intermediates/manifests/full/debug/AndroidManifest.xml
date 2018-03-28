@@ -11,6 +11,8 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <uses-feature android:name="android.hardware.camera" />
 
@@ -20,6 +22,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="ng.dat.ar.MainMenu" >
             <intent-filter>
@@ -32,6 +35,10 @@
         <activity android:name="ng.dat.ar.ToursActivity" />
         <activity android:name="ng.dat.ar.PreferencesActivity" />
         <activity android:name="ng.dat.ar.HelpActivity" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="25.4.0" />
     </application>
 
 </manifest>
