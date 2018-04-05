@@ -19,7 +19,7 @@
     <application
         android:allowBackup="true"
         android:debuggable="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/edinburgh_ar"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:testOnly="true"
