@@ -1,10 +1,19 @@
 package ng.dat.ar;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.design.widget.NavigationView;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.widget.ListView;
 import android.widget.Toast;
+import android.support.v7.widget.Toolbar;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -18,7 +27,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class ToursActivity extends Activity
+public class ToursActivity extends AppCompatActivity
 {
     String JSON_STRING;
     JSONObject jsonObject;
@@ -26,12 +35,68 @@ public class ToursActivity extends Activity
     TourAdapter tourAdapter;
     ListView listView;
 
+    private DrawerLayout mDrawerLayout;
+    private ActionBarDrawerToggle mToggle;
+    private NavigationView mNavView;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tours);
         new BackgroundTask().execute();
+        setTitle("Tours");
+
+        mDrawerLayout = (DrawerLayout) findViewById(R.id.toursDrawLay);
+        mToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.open, R.string.close);
+        mNavView = (NavigationView) findViewById(R.id.tourNavView);
+
+        //Toolbar mTool = (Toolbar) findViewById(R.id.actionNavToolbar);
+        //setSupportActionBar(mTool);
+
+        mDrawerLayout.addDrawerListener(mToggle);
+        mToggle.syncState();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(true);
+
+        mNavView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                int id = item.getItemId();
+                switch (id){
+                    case R.id.nav_ar:
+                        Intent iAR = new Intent(ToursActivity.this, ARActivity.class);
+                        startActivity(iAR);
+                        break;
+                    case R.id.nav_map:
+                        Intent iMap = new Intent(ToursActivity.this, ARActivity.class);
+                        startActivity(iMap);
+                        break;
+                    case R.id.nav_tour:
+                        Intent iTour = new Intent(ToursActivity.this, ToursActivity.class);
+                        startActivity(iTour);
+                        break;
+                    case R.id.nav_help:
+                        Intent iHelp = new Intent(ToursActivity.this, HelpActivity.class);
+                        startActivity(iHelp);
+                        break;
+                    case R.id.nav_settings:
+                        Intent iSettings = new Intent(ToursActivity.this, PreferencesActivity.class);
+                        startActivity(iSettings);
+                        break;
+                }
+                return false;
+            }
+        });
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(mToggle.onOptionsItemSelected(item)){
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
 

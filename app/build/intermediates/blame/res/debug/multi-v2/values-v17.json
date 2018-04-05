@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
+            "outputFile": "C:\\Users\\liamk\\Desktop\\edinburgh-ar-tours-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
             "map": [
                 {
-                    "source": "/Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/ea38c33231f4af7d532cd15cb10b9b6a/res/values-v17/values-v17.xml",
+                    "source": "C:\\Users\\liamk\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\1bcca790f62a45f6b9bbb6104f09484c\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
