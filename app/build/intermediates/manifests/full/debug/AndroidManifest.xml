@@ -19,7 +19,7 @@
     <application
         android:allowBackup="true"
         android:debuggable="true"
-        android:icon="@drawable/edinburgh_ar"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:testOnly="true"
@@ -36,6 +36,7 @@
         <activity android:name="ng.dat.ar.PreferencesActivity" />
         <activity android:name="ng.dat.ar.HelpActivity" />
         <activity android:name="ng.dat.ar.MainMenu" />
+        <activity android:name="ng.dat.ar.TourDescription" />
 
         <meta-data
             android:name="android.support.VERSION"

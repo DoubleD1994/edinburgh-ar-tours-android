@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:id="@+id/nav_ar" android:title="AR Camera" android:icon="@mipmap/ic_camera_black_24dp"/>
-    <item android:id="@+id/nav_map" android:title="Map" android:icon="@mipmap/ic_map_black_24dp"/>
-    <item android:id="@+id/nav_settings" android:title="Places" android:icon="@mipmap/ic_place_black_24dp"/>
-    <item android:id="@+id/nav_tour" android:title="Tours" android:icon="@mipmap/ic_list_black_24dp"/>
-    <item android:id="@+id/nav_help" android:title="Help" android:icon="@mipmap/ic_help_black_24dp"/>
+    <item android:id="@+id/nav_ar" android:title="AR Camera" android:icon="@drawable/ic_camera_black_24dp"/>
+    <item android:id="@+id/nav_map" android:title="Map" android:icon="@drawable/ic_map_black_24dp"/>
+    <item android:id="@+id/nav_settings" android:title="Places" android:icon="@drawable/ic_place_black_24dp"/>
+    <item android:id="@+id/nav_tour" android:title="Tours" android:icon="@drawable/ic_list_black_24dp"/>
+    <item android:id="@+id/nav_help" android:title="Help" android:icon="@drawable/ic_help_black_24dp"/>
 </menu>

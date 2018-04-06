@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\liamk\\Desktop\\edinburgh-ar-tours-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "/Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\liamk\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\1bcca790f62a45f6b9bbb6104f09484c\\res\\values-v21\\values-v21.xml",
+                    "source": "/Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/36f11a73d94c11ed10bab72f8fd2713c/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,23,24,25,26,28,30,31,32,33,34,36,38,40,42,44,46,47,52,54,56,57,58,60,62,63,64,65,66,67,111,114,158,161,164,166,168,170,173,175,178,179,180,183,184,185,186,187,188,191,192,194,196,198,200,204,206,207,208,209,211,215,217,219,220,221,222,223,225,226,227,237,238,239,251,263,264,265,268,271,272,275,276,279,282",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\liamk\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.4.0.aar\\0a391b0e0e4c1d08079776fcfc7d0179\\res\\values-v21\\values-v21.xml",
+                    "source": "/Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/8bc5be25ebed4d90c361d6f388d18a0c/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

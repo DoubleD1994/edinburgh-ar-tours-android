@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\liamk\\Desktop\\edinburgh-ar-tours-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "/Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\liamk\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\1bcca790f62a45f6b9bbb6104f09484c\\res\\values-land\\values-land.xml",
+                    "source": "/Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/36f11a73d94c11ed10bab72f8fd2713c/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\liamk\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.4.0.aar\\0a391b0e0e4c1d08079776fcfc7d0179\\res\\values-land\\values-land.xml",
+                    "source": "/Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/8bc5be25ebed4d90c361d6f388d18a0c/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

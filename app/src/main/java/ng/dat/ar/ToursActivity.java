@@ -11,6 +11,8 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 import android.support.v7.widget.Toolbar;
@@ -128,6 +130,9 @@ public class ToursActivity extends AppCompatActivity
 
                     Tours tour = new Tours(id, name);
                     tourAdapter.add(tour);
+
+                    final String tour_id = id;
+                    final String tour_name = name;
 
                     count++;
                 }
