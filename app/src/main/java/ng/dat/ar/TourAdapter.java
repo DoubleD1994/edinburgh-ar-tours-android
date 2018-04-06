@@ -53,10 +53,10 @@ public class TourAdapter extends ArrayAdapter
         if(row == null)
         {
             LayoutInflater layoutInflater = (LayoutInflater) this.getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            row = layoutInflater.inflate(R.layout.tour_row_layout, parent, false);
+            row = layoutInflater.inflate(R.layout.tour_card, parent, false);
             tourHolder = new TourHolder();
-            tourHolder.tx_id = (TextView) row.findViewById(R.id.tx_id);
-            tourHolder.tx_name = (TextView) row.findViewById(R.id.tx_name);
+            tourHolder.tx_id = (TextView) row.findViewById(R.id.tourDesc);
+            tourHolder.tx_name = (TextView) row.findViewById(R.id.tourTitle);
             row.setTag(tourHolder);
 
         }
