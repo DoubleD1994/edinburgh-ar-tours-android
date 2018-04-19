@@ -1,7 +1,13 @@
 #Internal package file, do not edit.
+<<<<<<< HEAD
 #Thu Apr 19 13:20:57 BST 2018
 0.baseType=DIRECTORY
 0.base=/Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/build/intermediates/transforms/dexMerger/debug/60
+=======
+#Sat Apr 07 16:21:42 BST 2018
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\liamk\\Desktop\\edinburgh-ar-tours-android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+>>>>>>> origin/master
 0.path=classes.dex
 0.set=DEX
 count=1
