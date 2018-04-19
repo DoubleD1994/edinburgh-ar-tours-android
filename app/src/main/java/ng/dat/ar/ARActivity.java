@@ -1,6 +1,7 @@
 package ng.dat.ar;
 
 import android.Manifest;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.hardware.Camera;
 import android.hardware.Sensor;
@@ -54,7 +55,17 @@ public class ARActivity extends AppCompatActivity implements SensorEventListener
         cameraContainerLayout = (FrameLayout) findViewById(R.id.camera_container_layout);
         surfaceView = (SurfaceView) findViewById(R.id.surface_view);
         tvCurrentLocation = (TextView) findViewById(R.id.tv_current_location);
-        arOverlayView = new AROverlayView(this);
+
+
+        Intent intent = getIntent();
+        String intentValue = intent.getStringExtra("access");
+
+        if(intentValue.equals("explore")) {
+            arOverlayView = new AROverlayView(this, intentValue);
+        } else if(intentValue.equals("tour")){
+            String tourId = intent.getStringExtra("tourId");
+            arOverlayView = new AROverlayView(this, intentValue, tourId);
+        }
     }
 
     @Override
