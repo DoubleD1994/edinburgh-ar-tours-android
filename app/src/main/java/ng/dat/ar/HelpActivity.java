@@ -55,7 +55,7 @@ public class HelpActivity extends AppCompatActivity {
                         startActivity(iHelp);
                         break;
                     case R.id.nav_settings:
-                        Intent iSettings = new Intent(HelpActivity.this, PreferencesActivity.class);
+                        Intent iSettings = new Intent(HelpActivity.this, PlacesActivity.class);
                         startActivity(iSettings);
                         break;
                 }

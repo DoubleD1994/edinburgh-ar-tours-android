@@ -988,7 +988,7 @@ int layout activity_ar 0x7f0a001b
 int layout activity_help 0x7f0a001c
 int layout activity_main_menu 0x7f0a001d
 int layout activity_navigation 0x7f0a001e
-int layout activity_preferences 0x7f0a001f
+int layout activity_places 0x7f0a001f
 int layout activity_tour_description 0x7f0a0020
 int layout activity_tours 0x7f0a0021
 int layout design_bottom_navigation_item 0x7f0a0022

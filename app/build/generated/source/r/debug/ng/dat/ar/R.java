@@ -3546,7 +3546,7 @@ public final class R {
     public static final int activity_help=0x7f0a001c;
     public static final int activity_main_menu=0x7f0a001d;
     public static final int activity_navigation=0x7f0a001e;
-    public static final int activity_preferences=0x7f0a001f;
+    public static final int activity_places=0x7f0a001f;
     public static final int activity_tour_description=0x7f0a0020;
     public static final int activity_tours=0x7f0a0021;
     public static final int design_bottom_navigation_item=0x7f0a0022;

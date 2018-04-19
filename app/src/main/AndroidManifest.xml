@@ -25,7 +25,7 @@
         </activity>
         <activity android:name=".ARActivity" />
         <activity android:name=".ToursActivity" />
-        <activity android:name=".PreferencesActivity" />
+        <activity android:name=".PlacesActivity" />
         <activity android:name=".HelpActivity" />
         <activity android:name=".MainMenu" />
         <activity android:name=".TourDescription"></activity>

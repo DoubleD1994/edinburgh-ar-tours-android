@@ -33,7 +33,7 @@
         </activity>
         <activity android:name="ng.dat.ar.ARActivity" />
         <activity android:name="ng.dat.ar.ToursActivity" />
-        <activity android:name="ng.dat.ar.PreferencesActivity" />
+        <activity android:name="ng.dat.ar.PlacesActivity" />
         <activity android:name="ng.dat.ar.HelpActivity" />
         <activity android:name="ng.dat.ar.MainMenu" />
         <activity android:name="ng.dat.ar.TourDescription" />

@@ -65,6 +65,9 @@ public class ARActivity extends AppCompatActivity implements SensorEventListener
         } else if(intentValue.equals("tour")){
             String tourId = intent.getStringExtra("tourId");
             arOverlayView = new AROverlayView(this, intentValue, tourId);
+        } else if(intentValue.equals("location")){
+            String poiId = intent.getStringExtra("poiId");
+            arOverlayView = new AROverlayView(this, intentValue, poiId);
         }
     }
 

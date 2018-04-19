@@ -1,8 +1,6 @@
 package ng.dat.ar;
 
-import android.content.Context;
 import android.content.Intent;
-import android.location.Location;
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -10,9 +8,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.Toast;
 
 import org.json.JSONArray;
@@ -81,7 +77,7 @@ public class NavigationActivity extends AppCompatActivity {
                         startActivity(iHelp);
                         break;
                     case R.id.nav_settings:
-                        Intent iSettings = new Intent(NavigationActivity.this, PreferencesActivity.class);
+                        Intent iSettings = new Intent(NavigationActivity.this, PlacesActivity.class);
                         startActivity(iSettings);
                         break;
                 }

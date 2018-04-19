@@ -121,10 +121,10 @@ activity#ng.dat.ar.ToursActivity
 ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:27:9-51
 	android:name
 		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:27:19-48
-activity#ng.dat.ar.PreferencesActivity
-ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:28:9-57
+activity#ng.dat.ar.PlacesActivity
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:28:9-52
 	android:name
-		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:28:19-54
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:28:19-49
 activity#ng.dat.ar.HelpActivity
 ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:29:9-50
 	android:name

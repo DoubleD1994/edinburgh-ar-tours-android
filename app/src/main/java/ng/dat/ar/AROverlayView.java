@@ -37,7 +37,6 @@ public class AROverlayView extends View {
 
     String JSON_STRING;
     Context context;
-    private String tourId;
     private float[] rotatedProjectionMatrix = new float[16];
     private Location currentLocation;
     private List<ARPoint> arPoints;
@@ -54,16 +53,23 @@ public class AROverlayView extends View {
         new BackgroundTask().execute();
     }
 
-    public AROverlayView(Context context, String method, String tourId)
+    public AROverlayView(Context context, String method, String id)
     {
         super(context);
 
         this.context = context;
 
-        BackgroundTaskTourPois backgroundTaskTourPois = new BackgroundTaskTourPois();
-        backgroundTaskTourPois.tour_id = tourId;
-        backgroundTaskTourPois.execute();
-        Toast.makeText(getContext(), "Running tour with id + " + tourId, Toast.LENGTH_LONG).show();
+        if(method.equals("tour")) {
+            BackgroundTaskTourPois backgroundTaskTourPois = new BackgroundTaskTourPois();
+            backgroundTaskTourPois.tour_id = id;
+            backgroundTaskTourPois.execute();
+            Toast.makeText(getContext(), "Running tour with id: " + id, Toast.LENGTH_LONG).show();
+        } else if(method.equals("location")){
+            BackgroundTaskSinglePoi backgroundTaskSinglePoi = new BackgroundTaskSinglePoi();
+            backgroundTaskSinglePoi.poi_id = id;
+            backgroundTaskSinglePoi.execute();
+            Toast.makeText(getContext(), "Showing POI with id: " + id, Toast.LENGTH_LONG).show();
+        }
 
     }
 
@@ -219,6 +225,64 @@ public class AROverlayView extends View {
         protected void onPreExecute()
         {
             json_url="http://punier-boresights.000webhostapp.com/json_get_tours_pois.php?tour_id="+tour_id+"";
+        }
+
+        @Override
+        protected String doInBackground(Void... voids)
+        {
+            try
+            {
+                URL url = new URL(json_url);
+                HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
+                InputStream inputStream = httpURLConnection.getInputStream();
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
+                StringBuilder stringBuilder = new StringBuilder();
+
+                while((JSON_STRING = bufferedReader.readLine())!=null)
+                {
+                    stringBuilder.append(JSON_STRING+"\n");
+                }
+
+                bufferedReader.close();
+                inputStream.close();
+                httpURLConnection.disconnect();
+                return stringBuilder.toString().trim();
+            }
+            catch (MalformedURLException e)
+            {
+                e.printStackTrace();
+            }
+            catch (IOException e)
+            {
+                e.printStackTrace();
+            }
+
+            return null;
+        }
+
+        @Override
+        protected void onProgressUpdate(Void... values)
+        {
+            super.onProgressUpdate(values);
+        }
+
+        @Override
+        protected void onPostExecute(String result)
+        {
+            JSON_STRING = result;
+            addPoints();
+        }
+    }
+
+    class BackgroundTaskSinglePoi extends AsyncTask<Void, Void, String>
+    {
+        String json_url;
+        String poi_id;
+
+        @Override
+        protected void onPreExecute()
+        {
+            json_url="http://punier-boresights.000webhostapp.com/json_get_single_poi.php?poi_id="+poi_id+"";
         }
 
         @Override

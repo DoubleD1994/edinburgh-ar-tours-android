@@ -1,6 +1,7 @@
 package ng.dat.ar;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -47,7 +48,7 @@ public class PoiAdapter extends ArrayAdapter
 
         View row;
         row = convertView;
-        PoiHolder poiHolder;
+        final PoiHolder poiHolder;
         if(row == null)
         {
             LayoutInflater layoutInflater = (LayoutInflater) this.getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -59,6 +60,21 @@ public class PoiAdapter extends ArrayAdapter
             poiHolder.tx_lon = (TextView) row.findViewById(R.id.tx_longitude);
             poiHolder.tx_alt = (TextView) row.findViewById(R.id.tx_altitude);
             row.setTag(poiHolder);
+
+            row.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+
+                    String poi_id = poiHolder.tx_id.getText().toString();
+
+                    Intent intent = new Intent(getContext(), ARActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    intent.putExtra("access", "location");
+                    intent.putExtra("poiId", poi_id);
+                    getContext().startActivity(intent);
+
+                }
+            });
 
         }
         else

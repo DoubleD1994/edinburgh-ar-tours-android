@@ -1,6 +1,5 @@
 package ng.dat.ar;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -25,7 +24,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class PreferencesActivity extends AppCompatActivity {
+public class PlacesActivity extends AppCompatActivity {
 
     String JSON_STRING;
     JSONObject jsonObject;
@@ -40,7 +39,7 @@ public class PreferencesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_preferences);
+        setContentView(R.layout.activity_places);
         new BackgroundTask().execute();
         setTitle("Places");
 
@@ -61,23 +60,23 @@ public class PreferencesActivity extends AppCompatActivity {
                 int id = item.getItemId();
                 switch (id){
                     case R.id.nav_ar:
-                        Intent iAR = new Intent(PreferencesActivity.this, ARActivity.class);
+                        Intent iAR = new Intent(PlacesActivity.this, ARActivity.class);
                         startActivity(iAR);
                         break;
                     case R.id.nav_map:
-                        Intent iMap = new Intent(PreferencesActivity.this, ARActivity.class);
+                        Intent iMap = new Intent(PlacesActivity.this, ARActivity.class);
                         startActivity(iMap);
                         break;
                     case R.id.nav_tour:
-                        Intent iTour = new Intent(PreferencesActivity.this, ToursActivity.class);
+                        Intent iTour = new Intent(PlacesActivity.this, ToursActivity.class);
                         startActivity(iTour);
                         break;
                     case R.id.nav_help:
-                        Intent iHelp = new Intent(PreferencesActivity.this, HelpActivity.class);
+                        Intent iHelp = new Intent(PlacesActivity.this, HelpActivity.class);
                         startActivity(iHelp);
                         break;
                     case R.id.nav_settings:
-                        Intent iSettings = new Intent(PreferencesActivity.this, PreferencesActivity.class);
+                        Intent iSettings = new Intent(PlacesActivity.this, PlacesActivity.class);
                         startActivity(iSettings);
                         break;
                 }

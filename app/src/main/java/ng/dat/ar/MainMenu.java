@@ -31,7 +31,7 @@ public class MainMenu extends AppCompatActivity
 
     public void launchPreferences(View view)
     {
-        startActivity(new Intent(this, PreferencesActivity.class));
+        startActivity(new Intent(this, PlacesActivity.class));
     }
 
     public void launchHelp(View view)
