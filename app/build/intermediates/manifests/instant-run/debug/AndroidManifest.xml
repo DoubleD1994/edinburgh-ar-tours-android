@@ -37,6 +37,7 @@
         <activity android:name="ng.dat.ar.HelpActivity" />
         <activity android:name="ng.dat.ar.MainMenu" />
         <activity android:name="ng.dat.ar.TourDescription" />
+        <activity android:name="ng.dat.ar.PreferencesActivity" />
 
         <meta-data
             android:name="android.support.VERSION"

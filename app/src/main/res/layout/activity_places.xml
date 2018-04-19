@@ -28,7 +28,7 @@
         android:layout_height="match_parent"
         app:menu="@menu/navmenu"
         android:layout_gravity="start"
-        android:id="@+id/prefNavView">
+        android:id="@+id/placesNavView">
 
     </android.support.design.widget.NavigationView>
 </android.support.v4.widget.DrawerLayout>

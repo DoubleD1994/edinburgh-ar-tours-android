@@ -45,7 +45,7 @@ public class PlacesActivity extends AppCompatActivity {
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.prefDrawLay);
         mToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.open, R.string.close);
-        mNavView = (NavigationView) findViewById(R.id.prefNavView);
+        mNavView = (NavigationView) findViewById(R.id.placesNavView);
 
         //Toolbar mTool = (Toolbar) findViewById(R.id.actionNavToolbar);
         //setSupportActionBar(mTool);

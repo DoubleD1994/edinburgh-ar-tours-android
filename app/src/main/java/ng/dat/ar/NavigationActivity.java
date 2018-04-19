@@ -80,6 +80,10 @@ public class NavigationActivity extends AppCompatActivity {
                         Intent iSettings = new Intent(NavigationActivity.this, PlacesActivity.class);
                         startActivity(iSettings);
                         break;
+                    case R.id.nav_preferences:
+                        Intent iPreferences = new Intent(NavigationActivity.this, PreferencesActivity.class);
+                        startActivity(iPreferences);
+                        break;
                 }
                 return false;
             }
