@@ -68,7 +68,11 @@ public class ARActivity extends AppCompatActivity implements SensorEventListener
         } else if(intentValue.equals("location")){
             String poiId = intent.getStringExtra("poiId");
             arOverlayView = new AROverlayView(this, intentValue, poiId);
+        } else if(intentValue.equals("preference")){
+            String prefId = intent.getStringExtra("prefId");
+            arOverlayView = new AROverlayView(this, intentValue, prefId);
         }
+
     }
 
     @Override

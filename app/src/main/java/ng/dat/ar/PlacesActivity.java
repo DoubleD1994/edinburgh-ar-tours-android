@@ -61,10 +61,11 @@ public class PlacesActivity extends AppCompatActivity {
                 switch (id){
                     case R.id.nav_ar:
                         Intent iAR = new Intent(PlacesActivity.this, ARActivity.class);
+                        iAR.putExtra("access", "explore");
                         startActivity(iAR);
                         break;
                     case R.id.nav_map:
-                        Intent iMap = new Intent(PlacesActivity.this, ARActivity.class);
+                        Intent iMap = new Intent(PlacesActivity.this, MainMenu.class);
                         startActivity(iMap);
                         break;
                     case R.id.nav_tour:
@@ -78,6 +79,10 @@ public class PlacesActivity extends AppCompatActivity {
                     case R.id.nav_settings:
                         Intent iSettings = new Intent(PlacesActivity.this, PlacesActivity.class);
                         startActivity(iSettings);
+                        break;
+                    case R.id.nav_preferences:
+                        Intent iPreferences = new Intent(PlacesActivity.this, PreferencesActivity.class);
+                        startActivity(iPreferences);
                         break;
                 }
                 return false;

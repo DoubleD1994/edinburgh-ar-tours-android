@@ -24,7 +24,7 @@ import java.net.URL;
 
 public class TourDescription extends AppCompatActivity {
 
-    TextView tour_id, tour_name, tour_description;
+    TextView tour_id, tour_name, tour_description, tour_dist, tour_time;
     String JSON_STRING_TOUR, JSON_STRING_POI;
     JSONObject jsonObject;
     JSONArray jsonArray;
@@ -39,6 +39,8 @@ public class TourDescription extends AppCompatActivity {
         tour_id = (TextView) findViewById(R.id.txt_tour_id);
         tour_name = (TextView) findViewById(R.id.txt_tour_name);
         tour_description = (TextView)  findViewById(R.id.txt_tour_descrip);
+        tour_dist = (TextView) findViewById(R.id.txt_tour_dist);
+        tour_time = (TextView) findViewById(R.id.txt_tour_time);
 
         BackgroundTaskTour backgroundTaskTour = new BackgroundTaskTour();
         backgroundTaskTour.tour_id = id;
@@ -68,7 +70,7 @@ public class TourDescription extends AppCompatActivity {
                 jsonArray = jsonObject.getJSONArray("server_response");
                 int count = 0;
 
-                String id = "", name = "", description = "";
+                String id = "", name = "", description = "", distance = "", est_time = "";
 
                 while(count<jsonArray.length())
                 {
@@ -76,6 +78,8 @@ public class TourDescription extends AppCompatActivity {
                     id = JO.getString("tour_id");
                     name = JO.getString("name");
                     description = JO.getString("description");
+                    distance = JO.getString("distance");
+                    est_time = JO.getString("est_time");
 
                     count++;
                 }
@@ -83,6 +87,8 @@ public class TourDescription extends AppCompatActivity {
                 tour_id.setText(id);
                 tour_name.setText(name);
                 tour_description.setText(description);
+                tour_dist.setText(distance);
+                tour_time.setText(est_time);
 
             }
             catch (JSONException e)

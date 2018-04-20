@@ -64,10 +64,11 @@ public class ToursActivity extends AppCompatActivity
                 switch (id){
                     case R.id.nav_ar:
                         Intent iAR = new Intent(ToursActivity.this, ARActivity.class);
+                        iAR.putExtra("access", "explore");
                         startActivity(iAR);
                         break;
                     case R.id.nav_map:
-                        Intent iMap = new Intent(ToursActivity.this, ARActivity.class);
+                        Intent iMap = new Intent(ToursActivity.this, MainMenu.class);
                         startActivity(iMap);
                         break;
                     case R.id.nav_tour:
@@ -81,6 +82,10 @@ public class ToursActivity extends AppCompatActivity
                     case R.id.nav_settings:
                         Intent iSettings = new Intent(ToursActivity.this, PlacesActivity.class);
                         startActivity(iSettings);
+                        break;
+                    case R.id.nav_preferences:
+                        Intent iPreferences = new Intent(ToursActivity.this, PreferencesActivity.class);
+                        startActivity(iPreferences);
                         break;
                 }
                 return false;

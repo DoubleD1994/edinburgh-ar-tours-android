@@ -40,7 +40,7 @@ public class PreferencesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_preferences);
-        setTitle("ThePreferences");
+        setTitle("The Preferences");
 
 
         new BackgroundTask().execute();
@@ -61,10 +61,11 @@ public class PreferencesActivity extends AppCompatActivity {
                 switch (id){
                     case R.id.nav_ar:
                         Intent iAR = new Intent(PreferencesActivity.this, ARActivity.class);
+                        iAR.putExtra("access", "explore");
                         startActivity(iAR);
                         break;
                     case R.id.nav_map:
-                        Intent iMap = new Intent(PreferencesActivity.this, ARActivity.class);
+                        Intent iMap = new Intent(PreferencesActivity.this, MainMenu.class);
                         startActivity(iMap);
                         break;
                     case R.id.nav_tour:
@@ -78,6 +79,10 @@ public class PreferencesActivity extends AppCompatActivity {
                     case R.id.nav_settings:
                         Intent iSettings = new Intent(PreferencesActivity.this, PlacesActivity.class);
                         startActivity(iSettings);
+                        break;
+                    case R.id.nav_preferences:
+                        Intent iPreferences = new Intent(PreferencesActivity.this, PreferencesActivity.class);
+                        startActivity(iPreferences);
                         break;
                 }
                 return false;

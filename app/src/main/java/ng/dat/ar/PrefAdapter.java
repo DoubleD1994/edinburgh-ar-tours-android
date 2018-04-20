@@ -63,10 +63,11 @@ public class PrefAdapter extends ArrayAdapter
                     String pref_id = prefHolder.tx_id.getText().toString();
                     String pref_title = prefHolder.tx_title.getText().toString();
 
-                    /*Intent intent = new Intent(getContext(), TourDescription.class);
+                    Intent intent = new Intent(getContext(), ARActivity.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                    intent.putExtra("pref_id", pref_id);
-                    getContext().startActivity(intent);*/
+                    intent.putExtra("access", "preference");
+                    intent.putExtra("prefId", pref_id);
+                    getContext().startActivity(intent);
 
                 }
             });
