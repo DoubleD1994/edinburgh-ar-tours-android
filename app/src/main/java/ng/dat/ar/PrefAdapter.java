@@ -48,6 +48,7 @@ public class PrefAdapter extends ArrayAdapter
         final PrefHolder prefHolder;
         if(row == null)
         {
+            //List each preference on the screen as a card.
             LayoutInflater layoutInflater = (LayoutInflater) this.getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             row = layoutInflater.inflate(R.layout.pref_card, parent, false);
 
@@ -56,6 +57,8 @@ public class PrefAdapter extends ArrayAdapter
             prefHolder.tx_title = (TextView) row.findViewById(R.id.prefTitle);
             row.setTag(prefHolder);
 
+            // When a user clicks on a preference, pass the id of that preference to the ARActivity
+            // class.
             row.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

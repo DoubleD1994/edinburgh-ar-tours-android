@@ -51,6 +51,7 @@ public class PoiAdapter extends ArrayAdapter
         final PoiHolder poiHolder;
         if(row == null)
         {
+            //List each POI on the screen as a card.
             LayoutInflater layoutInflater = (LayoutInflater) this.getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             row = layoutInflater.inflate(R.layout.poi_card, parent, false);
             poiHolder = new PoiHolder();
@@ -61,6 +62,8 @@ public class PoiAdapter extends ArrayAdapter
             poiHolder.tx_alt = (TextView) row.findViewById(R.id.tx_altitude);
             row.setTag(poiHolder);
 
+            // When user clicks on a POI, the ARActivity is launched and the ID of this POI is
+            // Passed to the ARActivity class.
             row.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

@@ -56,10 +56,12 @@ public class ARActivity extends AppCompatActivity implements SensorEventListener
         surfaceView = (SurfaceView) findViewById(R.id.surface_view);
         tvCurrentLocation = (TextView) findViewById(R.id.tv_current_location);
 
-
+        // Figure out what page is accessing the ARActivity
+        // This allows the arOverlayView to launch the correct POI's
         Intent intent = getIntent();
         String intentValue = intent.getStringExtra("access");
 
+        // Give the arOverlayView information to access the correct POI's for the ARActivity
         if(intentValue.equals("explore")) {
             arOverlayView = new AROverlayView(this, intentValue);
         } else if(intentValue.equals("tour")){

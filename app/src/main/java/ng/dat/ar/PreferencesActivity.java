@@ -98,6 +98,8 @@ public class PreferencesActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    // Method to parse through the JSON read in from the database and display the information
+    // In the view.
     public void parseJson()
     {
         if(JSON_STRING==null)
@@ -142,6 +144,7 @@ public class PreferencesActivity extends AppCompatActivity {
         }
     }
 
+    // Get each preference to display on the view.
     class BackgroundTask extends AsyncTask<Void, Void, String>
     {
         String json_url;

@@ -43,22 +43,33 @@ public class AROverlayView extends View {
     JSONObject jsonObject;
     JSONArray jsonArray;
 
-
+    //If the user is accessing the explore feature, this constructor is called.
     public AROverlayView(Context context, String method)
     {
         super(context);
 
         this.context = context;
 
+        //This background task gets all POI's from the database
         new BackgroundTask().execute();
     }
 
+    //If the user is accessing the Places, Tours or Preferences feature, this constructor is called.
     public AROverlayView(Context context, String method, String id)
     {
         super(context);
 
         this.context = context;
 
+        /*
+            If the method being accessed is tours, the app gets the POI's linked with that tour
+            based on the tours id.
+
+            If the method being accessed is places, the app gets the POI based on the id passed.
+
+            If the method being accessed is preferences, the app gets the POI's based on the
+            preference id.
+         */
         if(method.equals("tour")) {
             BackgroundTaskTourPois backgroundTaskTourPois = new BackgroundTaskTourPois();
             backgroundTaskTourPois.tour_id = id;
@@ -75,9 +86,12 @@ public class AROverlayView extends View {
 
     }
 
+    // Method called to add POIs that are read from database to the arPoints list.
+    // Once this is done, the point can be drawn on the AR camera.
     public void addPoints(){
         arPoints = new ArrayList<ARPoint>();
 
+        //If the JSON STRING is null, the user should be alerted
         if(JSON_STRING==null)
         {
             Toast.makeText(getContext(), "First Get JSON", Toast.LENGTH_LONG).show();
@@ -86,6 +100,7 @@ public class AROverlayView extends View {
         {
             try
             {
+                //Voncert the JSON String to a jsonObject and then to an array od objects.
                 jsonObject = new JSONObject(JSON_STRING);
                 jsonArray = jsonObject.getJSONArray("server_response");
                 int count = 0;
@@ -93,6 +108,7 @@ public class AROverlayView extends View {
                 String id, name;
                 double lat, lon, alt;
 
+                //Add each POI in the jsonArray to the arPoints list.
                 while(count<jsonArray.length())
                 {
                     JSONObject JO = jsonArray.getJSONObject(count);
@@ -160,6 +176,7 @@ public class AROverlayView extends View {
         }
     }
 
+    // Class that reads in every POI when the explore method is accessed
     class BackgroundTask extends AsyncTask<Void, Void, String>
     {
         String json_url;
@@ -217,7 +234,7 @@ public class AROverlayView extends View {
         }
     }
 
-
+    // Class that reads in every POI associated with a tour.
     class BackgroundTaskTourPois extends AsyncTask<Void, Void, String>
     {
         String json_url;
@@ -276,6 +293,7 @@ public class AROverlayView extends View {
         }
     }
 
+    // Class that reads in a single POI based on the id
     class BackgroundTaskSinglePoi extends AsyncTask<Void, Void, String>
     {
         String json_url;
@@ -334,6 +352,7 @@ public class AROverlayView extends View {
         }
     }
 
+    // Class that read in all POI's associated with a preference.
     class BackgroundTaskPrefPois extends AsyncTask<Void, Void, String>
     {
         String json_url;

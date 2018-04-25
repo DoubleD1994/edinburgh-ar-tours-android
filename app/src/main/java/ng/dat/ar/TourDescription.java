@@ -49,6 +49,7 @@ public class TourDescription extends AppCompatActivity {
         start_tour = (Button) findViewById(R.id.btn_start_tour);
     }
 
+    // If the user click the start tour button, launch the ARActivity and pass the ID of the tour.
     public void startTour(View view){
         Intent intent = new Intent(TourDescription.this, ARActivity.class);
         intent.putExtra("access", "tour");
@@ -56,6 +57,8 @@ public class TourDescription extends AppCompatActivity {
         startActivity(intent);
     }
 
+    // Parse throught the JSON read in from the database and display the information of the tour
+    // On the view.
     public void parseJsonTour()
     {
         if(JSON_STRING_TOUR==null)
@@ -98,6 +101,7 @@ public class TourDescription extends AppCompatActivity {
         }
     }
 
+    // Based on the ID of the Tour passed, Display the information of this tour.
     class BackgroundTaskTour extends AsyncTask<Void, Void, String>
     {
         String json_url;

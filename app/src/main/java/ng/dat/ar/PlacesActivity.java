@@ -98,6 +98,7 @@ public class PlacesActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    // Method to parse through the Json String and display all POI's on the Activity
     public void parseJson()
     {
         if(JSON_STRING==null)
@@ -118,6 +119,7 @@ public class PlacesActivity extends AppCompatActivity {
 
                 String id, name, lat, lon, alt;
 
+                // Read through the jsonArray and pass each individual POI to the poiAdapter class.
                 while(count<jsonArray.length())
                 {
                     JSONObject JO = jsonArray.getJSONObject(count);
@@ -140,6 +142,7 @@ public class PlacesActivity extends AppCompatActivity {
         }
     }
 
+    //Class that reads in every POI to the PlacesActivity
     class BackgroundTask extends AsyncTask<Void, Void, String>
     {
         String json_url;

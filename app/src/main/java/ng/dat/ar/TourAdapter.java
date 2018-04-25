@@ -67,6 +67,7 @@ public class TourAdapter extends ArrayAdapter
         final TourHolder tourHolder;
         if(row == null)
         {
+            //List each Tour on the screen as a card.
             LayoutInflater layoutInflater = (LayoutInflater) this.getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             row = layoutInflater.inflate(R.layout.tour_card, parent, false);
 
@@ -75,6 +76,8 @@ public class TourAdapter extends ArrayAdapter
             tourHolder.tx_name = (TextView) row.findViewById(R.id.tourTitle);
             row.setTag(tourHolder);
 
+            // When user clicks on a Tour, the TourDescription class is launched and the ID of this
+            // Tour is Passed to the TourDescription class.
             row.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

@@ -101,7 +101,7 @@ public class ToursActivity extends AppCompatActivity
         return super.onOptionsItemSelected(item);
     }
 
-
+    // Display the id and name of each tour as a card on the view.
     public void parseJson()
     {
         if(JSON_STRING==null)
@@ -144,6 +144,7 @@ public class ToursActivity extends AppCompatActivity
         }
     }
 
+    // Read in the id and name of each tour from the database.
     class BackgroundTask extends AsyncTask<Void, Void, String>
     {
         String json_url;
