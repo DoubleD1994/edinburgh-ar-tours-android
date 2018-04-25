@@ -3,4 +3,10 @@
     <string name="title_activity_display_list_view">DisplayListView</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+
+    <string name="how_to_use">How To Use</string>
+    <string name="htu_desc">
+        The Edinburgh Augmented Reality Tours application has a number of features available to the
+        user in order to enhance a tourists experience in Edinburgh.
+    </string>
 </resources>

@@ -11,50 +11,49 @@
     android:id="@+id/helpDrawLay">
 
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
-
-    <TextView
-        android:layout_width="wrap_content"
+    <?xml version="1.0" encoding="utf-8"?>
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/blogCardView"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp"
-        android:text="App Description"
-        android:textSize="26dp" />
+        android:layout_margin="10dp"
+        card_view:cardCornerRadius="7dp"
+        app:cardUseCompatPadding="true"
+        android:clickable="true">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="The purpose of this application....."
-        android:textSize="20dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        />
+        <!--card_view:cardCornerRadius="7dp"
+        app:cardUseCompatPadding="true"-->
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="How To Use"
-        android:textSize="26dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp"
-        />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="To use this application....."
-        android:textSize="20dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        />
-</LinearLayout>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/howToUse"
+                android:padding="5dp"
+                android:text="@string/how_to_use"
+                android:textColor="#222"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="2dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/howToUse"
+                android:text="@string/htu_desc"
+                android:textColor="#222"
+                android:textSize="12dp"
+                android:padding="5dp"
+                />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
 
 
     <android.support.design.widget.NavigationView

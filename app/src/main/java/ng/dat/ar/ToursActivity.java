@@ -62,6 +62,10 @@ public class ToursActivity extends AppCompatActivity
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
                 switch (id){
+                    case R.id.nav_home:
+                        Intent iHome = new Intent(ToursActivity.this, NavigationActivity.class);
+                        startActivity(iHome);
+                        break;
                     case R.id.nav_ar:
                         Intent iAR = new Intent(ToursActivity.this, ARActivity.class);
                         iAR.putExtra("access", "explore");

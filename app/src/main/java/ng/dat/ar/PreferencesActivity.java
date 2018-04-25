@@ -23,6 +23,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.prefs.Preferences;
 
 public class PreferencesActivity extends AppCompatActivity {
 
@@ -59,6 +60,10 @@ public class PreferencesActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
                 switch (id){
+                    case R.id.nav_home:
+                        Intent iHome = new Intent(PreferencesActivity.this, NavigationActivity.class);
+                        startActivity(iHome);
+                        break;
                     case R.id.nav_ar:
                         Intent iAR = new Intent(PreferencesActivity.this, ARActivity.class);
                         iAR.putExtra("access", "explore");
@@ -120,7 +125,6 @@ public class PreferencesActivity extends AppCompatActivity {
 
                 String id, title;
 
-                Toast.makeText(getApplicationContext(), JSON_STRING, Toast.LENGTH_LONG).show();
 
                 while(count<jsonArray.length())
                 {
