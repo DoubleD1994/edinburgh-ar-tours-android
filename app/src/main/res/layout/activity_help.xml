@@ -32,7 +32,7 @@
 
             <TextView
                 android:layout_width="100dp"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:id="@+id/howToUse"
                 android:padding="5dp"
                 android:text="@string/how_to_use"
@@ -43,9 +43,106 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:layout_toEndOf="@+id/howToUse"
+                android:id="@+id/htuDesc"
                 android:text="@string/htu_desc"
+                android:textColor="#222"
+                android:textSize="12dp"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/howToUse"
+                android:id="@+id/howToExplore"
+                android:padding="5dp"
+                android:text="@string/how_to_explore"
+                android:textColor="#222"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="2dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_below="@+id/htuDesc"
+                android:layout_toEndOf="@+id/howToExplore"
+                android:id="@+id/exploreDesc"
+                android:text="@string/explore_desc"
+                android:textColor="#222"
+                android:textSize="12dp"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/howToExplore"
+                android:id="@+id/howToPlaces"
+                android:padding="5dp"
+                android:text="@string/how_to_places"
+                android:textColor="#222"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="2dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_below="@+id/exploreDesc"
+                android:layout_toEndOf="@+id/howToPlaces"
+                android:id="@+id/placesDesc"
+                android:text="@string/places_desc"
+                android:textColor="#222"
+                android:textSize="12dp"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/howToPlaces"
+                android:id="@+id/howToTour"
+                android:padding="5dp"
+                android:text="@string/how_to_tour"
+                android:textColor="#222"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="2dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_below="@+id/placesDesc"
+                android:layout_toEndOf="@+id/howToTour"
+                android:id="@+id/tourDesc"
+                android:text="@string/tour_desc"
+                android:textColor="#222"
+                android:textSize="12dp"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/howToTour"
+                android:id="@+id/howToPreferences"
+                android:padding="5dp"
+                android:text="@string/how_to_preferences"
+                android:textColor="#222"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="2dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_below="@+id/tourDesc"
+                android:layout_toEndOf="@+id/howToPreferences"
+                android:id="@+id/preferencesDesc"
+                android:text="@string/preferences_desc"
                 android:textColor="#222"
                 android:textSize="12dp"
                 android:padding="5dp"

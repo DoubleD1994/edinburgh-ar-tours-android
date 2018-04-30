@@ -9,4 +9,29 @@
         The Edinburgh Augmented Reality Tours application has a number of features available to the
         user in order to enhance a tourists experience in Edinburgh.
     </string>
+
+    <string name="how_to_explore">Explore</string>
+    <string name="explore_desc">
+        The explore feature will display every point of interest in Edinburgh. Use this feature to
+        look around and find your favorite points on interest in Edinburgh.
+    </string>
+
+    <string name="how_to_places">Places</string>
+    <string name="places_desc">
+        The places feature will allow you to select a single point of interest. This will then allow
+        you to navigate your way to this point of interest without being distracted with other
+        points.
+    </string>
+
+    <string name="how_to_tour">Tours</string>
+    <string name="tour_desc">
+        The tours feature will take you on a tour of Edinburgh. You will be able to explore a number
+        of places and learn about some of Edinburgh's history.
+    </string>
+
+    <string name="how_to_preferences">Preferences</string>
+    <string name="preferences_desc">
+        The preferences feature allows you to select an interest. You will then be shown points of
+        interest based on your preference.
+    </string>
 </resources>

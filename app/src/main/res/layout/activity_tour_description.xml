@@ -1,79 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/blogCardView"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context=".TourDescription"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TourDescription"
-    android:weightSum="1"
-    android:gravity="center_horizontal"
-    android:orientation="vertical"
-    >
+    android:layout_margin="10dp"
+    card_view:cardCornerRadius="7dp"
+    app:cardUseCompatPadding="true"
+    android:clickable="true">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tour Id"
-        android:id="@+id/txt_tour_id"
-        android:textSize="36dp"
-        android:textColor="@color/colorPrimary"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp"
-        />
+    <!--card_view:cardCornerRadius="7dp"
+    app:cardUseCompatPadding="true"-->
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tour Name"
-        android:id="@+id/txt_tour_name"
-        android:textSize="36dp"
-        android:textColor="@color/colorPrimary"
-        android:layout_gravity="center_horizontal"
-        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tour Description"
-        android:id="@+id/txt_tour_descrip"
-        android:textSize="20dp"
-        android:textColor="@color/colorPrimary"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp"
-        />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:text="Tour Id"
+            android:id="@+id/txt_tour_id"
+            android:textSize="30dp"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tour Distance"
-        android:id="@+id/txt_tour_dist"
-        android:textSize="20dp"
-        android:textColor="@color/colorPrimary"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp"
-        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_toEndOf="@+id/txt_tour_id"
+            android:text="Tour Name"
+            android:id="@+id/txt_tour_name"
+            android:textSize="30dp"
+            android:textColor="#000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tour Est Time"
-        android:id="@+id/txt_tour_time"
-        android:textSize="20dp"
-        android:textColor="@color/colorPrimary"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp"
-        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="225dp"
+            android:layout_below="@+id/txt_tour_id"
+            android:text="Tour Description"
+            android:id="@+id/txt_tour_descrip"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
 
-    <Button
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:text="Start Tour"
-        android:id="@+id/btn_start_tour"
-        android:textSize="20dp"
-        android:background="@color/colorPrimary"
-        android:textColor="#FFF"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp"
-        android:onClick="startTour"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_tour_descrip"
+            android:text="Distance of Tour: "
+            android:id="@+id/tour_dist"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_tour_descrip"
+            android:layout_toEndOf="@+id/tour_dist"
+            android:text="Tour Distance"
+            android:id="@+id/txt_tour_dist"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            />
 
-</LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tour_dist"
+            android:text="Time of Tour: "
+            android:id="@+id/tour_time"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tour_dist"
+            android:layout_toEndOf="@+id/tour_time"
+            android:text="Tour Est Time"
+            android:id="@+id/txt_tour_time"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_tour_time"
+            android:text="Start Tour"
+            android:id="@+id/btn_start_tour"
+            android:textSize="20dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFF"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:onClick="startTour"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
