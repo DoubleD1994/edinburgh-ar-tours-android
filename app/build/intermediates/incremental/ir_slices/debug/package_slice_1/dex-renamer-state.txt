@@ -1,4 +1,0 @@
-#Mon Apr 30 14:40:15 BST 2018
-base.0=/Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/build/intermediates/transforms/dexMerger/debug/32
-path.0=classes.dex
-renamed.0=classes.dex

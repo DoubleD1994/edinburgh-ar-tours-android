@@ -24,7 +24,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="ng.dat.ar.NavigationActivity" >
+        <activity android:name="ng.dat.ar.Splash" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -38,10 +38,7 @@
         <activity android:name="ng.dat.ar.MainMenu" />
         <activity android:name="ng.dat.ar.TourDescription" />
         <activity android:name="ng.dat.ar.PreferencesActivity" />
-
-        <meta-data
-            android:name="android.support.VERSION"
-            android:value="25.4.0" />
+        <activity android:name="ng.dat.ar.NavigationActivity" />
     </application>
 
 </manifest>
