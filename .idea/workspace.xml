@@ -9,6 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="09c6b215-e752-447e-ad98-515d9bc569ba" name="Default" comment="">
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_android_25.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ng/dat/ar/Splash.java" />
@@ -1461,6 +1462,9 @@
       <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-28-22-20-17-006.rawproto" afterPath="" />
       <change beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
     </list>
+=======
+    <list default="true" id="09c6b215-e752-447e-ad98-515d9bc569ba" name="Default" comment="" />
+>>>>>>> Stashed changes
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <ignored path="$PROJECT_DIR$/app/build/intermediates/assets/" />
@@ -3726,8 +3730,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="VectorAssetImportPath" value="C:/.." />
+<<<<<<< Updated upstream
     <property name="device.picker.selection" value="LGH8701263310a" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1525174125524" />
+=======
+    <property name="device.picker.selection" value="ad06160308a0ccdac9" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1525098581576" />
+>>>>>>> Stashed changes
     <property name="sync.plugin.last.upgrade.timestamp" value="1524143056392" />
     <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/Version3" />
     <property name="android.project.structure.last.selected" value="app" />

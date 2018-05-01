@@ -1,189 +1,189 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:2:1-36:12
-MERGED from [com.android.support:design:25.1.0] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\design-25.1.0.aar\49c7233a7c25bc5f1575cdf7eeeaded5\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.1.aar\6adeb3cbb5999ffc47e633d8e84be4f4\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:cardview-v7:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.1.1.aar\9aa5cbb584246a3c1124c8f6b161c7d5\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7a9afa9133414bfea7e13c3b5a6b37d2\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:recyclerview-v7:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.1.1.aar\c8136819321821155f56d978384a4f0a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:25.1.0] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\transition-25.1.0.aar\b9555fba3e158ed1895718e3dcba74ab\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-v4:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-v4-25.1.1.aar\1ff3e9ed9be8131beabcceefd7d2c0f1\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-fragment:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-fragment-25.1.1.aar\0c456bed0c0145675beda0ff94d16938\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-media-compat:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.1.1.aar\fcc77462d74a1d2c0feaa99db0b7efb4\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-core-utils:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.1.1.aar\73773bc1a5379b1752244e4735bb4531\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-core-ui:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.1.1.aar\0e53af5f0f17f0647f9b8b1676045889\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.1.1.aar\7705782e9748b73d39a0b5892f321ff2\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.1.1.aar\e94eebf7b93fd7b2d696c6cee8be76ff\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:support-compat:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-compat-25.1.1.aar\557a1c2b1a1c57c18cb011a3e8fd9758\AndroidManifest.xml:17:1-27:12
-INJECTED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:2:1-36:12
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:2:1-36:12
+MERGED from [com.android.support:design:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/design-25.1.0.aar/bcfd335e20cc72135688dc5dce44e35f/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.1.aar/00f86b6d1611953fa9879a0217dd230a/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:cardview-v7:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.1.1.aar/6d052c4205bf744ba3f84a09c89014c1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1ad24522b076a7b333400bb292382c16/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.1.1.aar/db90a640fb7930de6ef76f6d6a89f83b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/transition-25.1.0.aar/a76b10148b57d4ad0836bdc4b46150aa/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.1.aar/5c06164b686b8ede945cdb44e2513bc1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-fragment:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.1.aar/d52369f89af2949f5835acfdc106c2e8/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.1.aar/f28e209dd88084e676d740c613e5a872/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.1.aar/dc7507a5419fd88a725eb321f888f540/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.1.aar/5635cca402cb1521f6e7f0dcbb50d4a9/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.1.aar/c3e4b37ab59e90cd84e340b93caddbae/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.1.aar/82580734838d5330e24bb2403e0159c1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-compat:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.1.aar/c0890ffed5df975fe4512f9a1313b711/AndroidManifest.xml:17:1-27:12
+INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:2:1-36:12
 	package
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:3:5-24
-		INJECTED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:3:5-24
+		INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:2:1-36:12
-		INJECTED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:2:1-36:12
+		INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:2:1-36:12
-		INJECTED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:2:1-36:12
+		INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:5:5-79
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:5:5-79
 	android:name
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:5:22-76
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:5:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:6:5-81
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:6:5-81
 	android:name
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:6:22-78
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:6:22-78
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:7:5-65
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:7:5-65
 	android:name
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:7:22-62
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:7:22-62
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:8:5-67
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:8:5-67
 	android:name
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:8:22-64
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:8:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:9:5-79
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:9:22-76
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:9:22-76
 uses-feature#android.hardware.camera
-ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:11:5-60
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:11:5-60
 	android:name
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:11:19-57
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:11:19-57
 application
-ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:13:5-34:19
-MERGED from [com.android.support:design:25.1.0] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\design-25.1.0.aar\49c7233a7c25bc5f1575cdf7eeeaded5\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:design:25.1.0] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\design-25.1.0.aar\49c7233a7c25bc5f1575cdf7eeeaded5\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.1.aar\6adeb3cbb5999ffc47e633d8e84be4f4\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.1.aar\6adeb3cbb5999ffc47e633d8e84be4f4\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:cardview-v7:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.1.1.aar\9aa5cbb584246a3c1124c8f6b161c7d5\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:cardview-v7:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.1.1.aar\9aa5cbb584246a3c1124c8f6b161c7d5\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7a9afa9133414bfea7e13c3b5a6b37d2\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7a9afa9133414bfea7e13c3b5a6b37d2\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:transition:25.1.0] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\transition-25.1.0.aar\b9555fba3e158ed1895718e3dcba74ab\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:transition:25.1.0] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\transition-25.1.0.aar\b9555fba3e158ed1895718e3dcba74ab\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-v4-25.1.1.aar\1ff3e9ed9be8131beabcceefd7d2c0f1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-v4-25.1.1.aar\1ff3e9ed9be8131beabcceefd7d2c0f1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-fragment-25.1.1.aar\0c456bed0c0145675beda0ff94d16938\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-fragment-25.1.1.aar\0c456bed0c0145675beda0ff94d16938\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.1.1.aar\fcc77462d74a1d2c0feaa99db0b7efb4\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.1.1.aar\fcc77462d74a1d2c0feaa99db0b7efb4\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.1.1.aar\73773bc1a5379b1752244e4735bb4531\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.1.1.aar\73773bc1a5379b1752244e4735bb4531\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.1.1.aar\0e53af5f0f17f0647f9b8b1676045889\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.1.1.aar\0e53af5f0f17f0647f9b8b1676045889\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.1.1.aar\7705782e9748b73d39a0b5892f321ff2\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.1.1.aar\7705782e9748b73d39a0b5892f321ff2\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.1.1.aar\e94eebf7b93fd7b2d696c6cee8be76ff\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.1.1.aar\e94eebf7b93fd7b2d696c6cee8be76ff\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-compat:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-compat-25.1.1.aar\557a1c2b1a1c57c18cb011a3e8fd9758\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-compat-25.1.1.aar\557a1c2b1a1c57c18cb011a3e8fd9758\AndroidManifest.xml:25:5-20
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:13:5-34:19
+MERGED from [com.android.support:design:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/design-25.1.0.aar/bcfd335e20cc72135688dc5dce44e35f/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:design:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/design-25.1.0.aar/bcfd335e20cc72135688dc5dce44e35f/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.1.aar/00f86b6d1611953fa9879a0217dd230a/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.1.aar/00f86b6d1611953fa9879a0217dd230a/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:cardview-v7:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.1.1.aar/6d052c4205bf744ba3f84a09c89014c1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.1.1.aar/6d052c4205bf744ba3f84a09c89014c1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1ad24522b076a7b333400bb292382c16/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1ad24522b076a7b333400bb292382c16/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:transition:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/transition-25.1.0.aar/a76b10148b57d4ad0836bdc4b46150aa/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:transition:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/transition-25.1.0.aar/a76b10148b57d4ad0836bdc4b46150aa/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.1.aar/5c06164b686b8ede945cdb44e2513bc1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.1.aar/5c06164b686b8ede945cdb44e2513bc1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.1.aar/d52369f89af2949f5835acfdc106c2e8/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.1.aar/d52369f89af2949f5835acfdc106c2e8/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.1.aar/f28e209dd88084e676d740c613e5a872/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.1.aar/f28e209dd88084e676d740c613e5a872/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.1.aar/dc7507a5419fd88a725eb321f888f540/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.1.aar/dc7507a5419fd88a725eb321f888f540/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.1.aar/5635cca402cb1521f6e7f0dcbb50d4a9/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.1.aar/5635cca402cb1521f6e7f0dcbb50d4a9/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.1.aar/c3e4b37ab59e90cd84e340b93caddbae/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.1.aar/c3e4b37ab59e90cd84e340b93caddbae/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.1.aar/82580734838d5330e24bb2403e0159c1/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.1.aar/82580734838d5330e24bb2403e0159c1/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.1.aar/c0890ffed5df975fe4512f9a1313b711/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.1.aar/c0890ffed5df975fe4512f9a1313b711/AndroidManifest.xml:25:5-20
 	android:supportsRtl
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:16:9-41
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:16:9-41
 	android:icon
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:15:9-45
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:15:9-45
 	android:allowBackup
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:18:9-40
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:18:9-40
 activity#ng.dat.ar.Splash
-ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:19:9-25:20
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:19:9-25:20
 	android:name
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:19:19-41
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:19:19-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:23:27-74
 activity#ng.dat.ar.ARActivity
-ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:26:9-48
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:26:9-48
 	android:name
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:26:19-45
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:26:19-45
 activity#ng.dat.ar.ToursActivity
-ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:27:9-51
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:27:9-51
 	android:name
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:27:19-48
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:27:19-48
 activity#ng.dat.ar.PlacesActivity
-ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:28:9-52
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:28:9-52
 	android:name
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:28:19-49
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:28:19-49
 activity#ng.dat.ar.HelpActivity
-ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:29:9-50
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:29:9-50
 	android:name
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:29:19-47
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:29:19-47
 activity#ng.dat.ar.MainMenu
-ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:30:9-46
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:30:9-46
 	android:name
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:30:19-43
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:30:19-43
 activity#ng.dat.ar.TourDescription
-ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:31:9-53
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:31:9-53
 	android:name
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:31:19-50
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:31:19-50
 activity#ng.dat.ar.PreferencesActivity
-ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:32:9-57
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:32:9-57
 	android:name
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:32:19-54
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:32:19-54
 activity#ng.dat.ar.NavigationActivity
-ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:33:9-56
+ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:33:9-56
 	android:name
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml:33:19-53
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml:33:19-53
 uses-sdk
-INJECTED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:25.1.0] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\design-25.1.0.aar\49c7233a7c25bc5f1575cdf7eeeaded5\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:25.1.0] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\design-25.1.0.aar\49c7233a7c25bc5f1575cdf7eeeaded5\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.1.aar\6adeb3cbb5999ffc47e633d8e84be4f4\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.1.aar\6adeb3cbb5999ffc47e633d8e84be4f4\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:cardview-v7:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.1.1.aar\9aa5cbb584246a3c1124c8f6b161c7d5\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.1.1.aar\9aa5cbb584246a3c1124c8f6b161c7d5\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7a9afa9133414bfea7e13c3b5a6b37d2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7a9afa9133414bfea7e13c3b5a6b37d2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.1.1.aar\c8136819321821155f56d978384a4f0a\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.1.1.aar\c8136819321821155f56d978384a4f0a\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.1.0] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\transition-25.1.0.aar\b9555fba3e158ed1895718e3dcba74ab\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:25.1.0] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\transition-25.1.0.aar\b9555fba3e158ed1895718e3dcba74ab\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-v4-25.1.1.aar\1ff3e9ed9be8131beabcceefd7d2c0f1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-v4-25.1.1.aar\1ff3e9ed9be8131beabcceefd7d2c0f1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-fragment-25.1.1.aar\0c456bed0c0145675beda0ff94d16938\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-fragment-25.1.1.aar\0c456bed0c0145675beda0ff94d16938\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.1.1.aar\fcc77462d74a1d2c0feaa99db0b7efb4\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.1.1.aar\fcc77462d74a1d2c0feaa99db0b7efb4\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.1.1.aar\73773bc1a5379b1752244e4735bb4531\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.1.1.aar\73773bc1a5379b1752244e4735bb4531\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.1.1.aar\0e53af5f0f17f0647f9b8b1676045889\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.1.1.aar\0e53af5f0f17f0647f9b8b1676045889\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.1.1.aar\7705782e9748b73d39a0b5892f321ff2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.1.1.aar\7705782e9748b73d39a0b5892f321ff2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.1.1.aar\e94eebf7b93fd7b2d696c6cee8be76ff\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.1.1.aar\e94eebf7b93fd7b2d696c6cee8be76ff\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-compat:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-compat-25.1.1.aar\557a1c2b1a1c57c18cb011a3e8fd9758\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.1.1] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\support-compat-25.1.1.aar\557a1c2b1a1c57c18cb011a3e8fd9758\AndroidManifest.xml:21:5-23:58
-INJECTED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml
+INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/design-25.1.0.aar/bcfd335e20cc72135688dc5dce44e35f/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/design-25.1.0.aar/bcfd335e20cc72135688dc5dce44e35f/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.1.aar/00f86b6d1611953fa9879a0217dd230a/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.1.aar/00f86b6d1611953fa9879a0217dd230a/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:cardview-v7:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.1.1.aar/6d052c4205bf744ba3f84a09c89014c1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.1.1.aar/6d052c4205bf744ba3f84a09c89014c1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1ad24522b076a7b333400bb292382c16/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1ad24522b076a7b333400bb292382c16/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.1.1.aar/db90a640fb7930de6ef76f6d6a89f83b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.1.1.aar/db90a640fb7930de6ef76f6d6a89f83b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/transition-25.1.0.aar/a76b10148b57d4ad0836bdc4b46150aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/transition-25.1.0.aar/a76b10148b57d4ad0836bdc4b46150aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.1.aar/5c06164b686b8ede945cdb44e2513bc1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.1.aar/5c06164b686b8ede945cdb44e2513bc1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.1.aar/d52369f89af2949f5835acfdc106c2e8/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.1.aar/d52369f89af2949f5835acfdc106c2e8/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.1.aar/f28e209dd88084e676d740c613e5a872/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.1.aar/f28e209dd88084e676d740c613e5a872/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.1.aar/dc7507a5419fd88a725eb321f888f540/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.1.aar/dc7507a5419fd88a725eb321f888f540/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.1.aar/5635cca402cb1521f6e7f0dcbb50d4a9/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.1.aar/5635cca402cb1521f6e7f0dcbb50d4a9/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.1.aar/c3e4b37ab59e90cd84e340b93caddbae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.1.aar/c3e4b37ab59e90cd84e340b93caddbae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.1.aar/82580734838d5330e24bb2403e0159c1/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.1.aar/82580734838d5330e24bb2403e0159c1/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.1.aar/c0890ffed5df975fe4512f9a1313b711/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.1] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.1.aar/c0890ffed5df975fe4512f9a1313b711/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.1.0] C:\Users\liamk\.gradle\caches\transforms-1\files-1.1\design-25.1.0.aar\49c7233a7c25bc5f1575cdf7eeeaded5\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.1.0] /Users/daviddryburgh/.gradle/caches/transforms-1/files-1.1/design-25.1.0.aar/bcfd335e20cc72135688dc5dce44e35f/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\liamk\Desktop\edinburgh-ar-tours-android\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/daviddryburgh/Documents/Uni Year 5/Advanced Software Engineering Teamworking/ar-location-based-android/app/src/main/AndroidManifest.xml

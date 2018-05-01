@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">EdinburghAR</string>
+    <string name="app_name">Edinburgh AR Tours</string>
     <string name="title_activity_display_list_view">DisplayListView</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
@@ -33,5 +33,16 @@
     <string name="preferences_desc">
         The preferences feature allows you to select an interest. You will then be shown points of
         interest based on your preference.
+    </string>
+
+    <string name="home_title">Welcome to Edinburgh Augmented Reality Tours.</string>
+    <string name="home_info">
+        With this application, we look to use the power of Augmented Reality to enhance your
+        experience when exploring Edinburgh.
+    </string>
+
+    <string name="home_get_started">
+        So get started and dive into the great sights that Edinburgh has to Offer. Use the menu icon
+        to select a feature and get going.
     </string>
 </resources>

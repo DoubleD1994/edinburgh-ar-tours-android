@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:id="@+id/nav_home" android:title="Home" android:icon="@drawable/ic_home_black_24dp"/>
-    <item android:id="@+id/nav_ar" android:title="AR Camera" android:icon="@drawable/ic_camera_black_24dp"/>
+    <item android:id="@+id/nav_ar" android:title="Explore" android:icon="@drawable/ic_camera_black_24dp"/>
     <item android:id="@+id/nav_map" android:title="Map" android:icon="@drawable/ic_map_black_24dp"/>
     <item android:id="@+id/nav_settings" android:title="Places" android:icon="@drawable/ic_place_black_24dp"/>
     <item android:id="@+id/nav_tour" android:title="Tours" android:icon="@drawable/ic_list_black_24dp"/>
